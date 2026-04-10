@@ -36,7 +36,7 @@
 // }
 // console.log(arr);
 
-//!insertion sory
+//!insertion sorting
 let arr= [10,99,5,1,12,3];
 let n=arr.length;  
 for(let i =1; i<n;i++){
