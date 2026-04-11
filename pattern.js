@@ -2,7 +2,7 @@
 // process.stdout.write("world");
 
 let prompt=require('prompt-sync')();
-let n =Number( prompt("enter a mumber"))
+let n =Number( prompt("enter a number"))
 // for(let i=1;i<=a;i++){ 
 //     let ascii =65;
 //     for(let j=1;j<=i;j++){
