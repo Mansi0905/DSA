@@ -71,9 +71,9 @@ var myPow = function(x, n) { //starting me hi n ki value zero mil gyi ya fir neg
    
     
 };
-var temp = function(x,n){
+var temp = function(x,n){ 
     if(n==0) return 1;
-    let ans = temp(x,parseInt(n/2));
-    if( n% 2 ==0) return ans * ans;
-    return ans * ans * x;
+    let ans = temp(x,parseInt(n/2));  //stack me jane ke bad condition check hui if (n==0 ) agr nhi to to jo n hai vo half ho jata hai
+    if( n% 2 ==0) return ans * ans;   // agr answer even hai to ye chlega
+    return ans * ans * x; // agr eodd hai to ye chlega
 }
