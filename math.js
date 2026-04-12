@@ -64,7 +64,7 @@
  * @param {number} n
  * @return {number}
  */
-var myPow = function(x, n) { //starting me hi n ki value zero mil gyi ya fir negtive
+var myPow = function(x, n) { //starting me hi n ki value zero mil gyi ya fir negative hai i.e less than 0
     if(n == 0) return 1.0;
     let ans = temp(x,n);
     return (n<0)? 1/ans : ans;
