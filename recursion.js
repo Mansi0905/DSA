@@ -8,7 +8,7 @@
 // }
 // temp(6);
 
-//! 1 se leke n tak pront krvanaya
+//! 1 se leke n tak print krvanaya
 // function temp(n){
 //     if(n==0){
 //         return;
