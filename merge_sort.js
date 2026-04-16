@@ -1,4 +1,6 @@
- function conqour(arr,first,mid,last) {  //o(n) time comp
+//diveide bd conquor
+
+function conqour(arr,first,mid,last) {  //o(n) time comp
     let temp = new Array(last-first +1)   ;       
     let i = first , j= mid+1,k=0;
     while(i <= mid && j<=last){
