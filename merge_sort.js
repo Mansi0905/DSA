@@ -1,4 +1,4 @@
-//diveide bd conquor
+//diveide nd  conquor
 
 function conqour(arr,first,mid,last) {  //o(n) time comp
     let temp = new Array(last-first +1)   ;       
