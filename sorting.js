@@ -1,4 +1,4 @@
-//! 1bubble sort
+//!  1  bubble sort
 
 // let arr= [10,5,1,12,3];
 // let n=arr.length;
