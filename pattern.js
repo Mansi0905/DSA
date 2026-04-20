@@ -9,7 +9,7 @@ let n =Number( prompt("enter a number"))
 // process.stdout.write(String.fromCharCode(ascii)+"");
 // ascii++;
 //     }
-
+//
 
 // for(let j=1;j<=a-i+1;j++){
 //     process.stdout.write("* ");
