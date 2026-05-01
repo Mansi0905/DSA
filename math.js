@@ -7,7 +7,7 @@
 //     if(a>b) a= a-b;
 //     else b=b-a;
 // }
-// console.log(a);
+// console.log(a);      //?lplp
 
 //? recursively methodlogy --------> subtracting the smaller number from the larger one until they are equal. The last remaining number is the GCD of the original two numbers.   
 // function gcd(a,b){
