@@ -9,7 +9,7 @@
 // }
 // console.log(a);
 
-//? recursively methodlogy --> subtracting the smaller number from the larger one until they are equal. The last remaining number is the GCD of the original two numbers.   
+//? recursively methodlogy --------> subtracting the smaller number from the larger one until they are equal. The last remaining number is the GCD of the original two numbers.   
 // function gcd(a,b){
 //     if(a==b) return a;
 //     if (a>b) return gcd(a-b,b)
