@@ -1,5 +1,5 @@
-hihihi
-yuyuyuyuyu
-arey aywr
-shiiiiiiiiiiiiiiiiiiit
-kill me
+{
+  "name": "kruel",
+  "age": 21,
+  "skills": ["JS", "DBMS"]
+}
