@@ -9,6 +9,8 @@
    return false;
  }
 
+** LOGIC=> create an emmpty set called as seeen.
+            
 
 
 
