@@ -28,3 +28,16 @@
 
 
 //FREQUENCY COUNT
+ function frequency (arr){
+ const count = new Map();
+ for(let i=0; i < arr.length ; i++){
+  const x = arr[i];
+  if(count.has(x)){
+   [count.set(x,count.get(x)+1);
+  }
+  else{
+   count.set(x,1);
+  }
+ }
+ return count;
+}
