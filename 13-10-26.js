@@ -10,6 +10,13 @@
  }
 
 ** LOGIC=> create an emmpty set called as seeen.
+ Logic:
+1. Create an empty Set called seen.
+2. Traverse each element in the array.
+3. seen.has(x) checks if the element already exists.
+4. If yes → return true (duplicate found).
+5. If no → seen.add(x) stores the element.
+6. If the loop finishes without finding a duplicate → return false.
             
 
 
