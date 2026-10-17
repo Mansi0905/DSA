@@ -73,3 +73,6 @@ Remember:
 - .has() = check; .get() = retrieve value; .set() = add/update value.
 - New element → count starts at 1.
 - Repeated element → count increases by 1.
+
+
+Complexity: Time: \(O(n)\) average | Space: \(O(k)\), where \(k\) is the number of unique elements.
