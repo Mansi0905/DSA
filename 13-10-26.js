@@ -17,6 +17,8 @@
 4. If yes → return true (duplicate found).
 5. If no → seen.add(x) stores the element.
 6. If the loop finishes without finding a duplicate → return false.
+
+ Example: [1, 2, 3, 2] → true
             
 
 
