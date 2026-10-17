@@ -76,3 +76,9 @@ Remember:
 
 
 Complexity: Time: \(O(n)\) average | Space: \(O(k)\), where \(k\) is the number of unique elements.
+
+
+
+ One-line memory trick:
+- Set: Have I seen this element before?
+- Map: How many times have I seen this element?
