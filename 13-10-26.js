@@ -19,6 +19,11 @@
 6. If the loop finishes without finding a duplicate → return false.
 
  Example: [1, 2, 3, 2] → true
+
+Remember:
+- Set stores unique values.
+- .has() = check; .add() = store.
+- return immediately stops the function.
             
 
 
