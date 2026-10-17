@@ -14,3 +14,34 @@ function twoSum(arr, target) {
 
   return [];
 }
+
+
+
+Purpose: Do numbers ke indices return karna jinka sum target ho.
+
+
+
+Map: Pehle dekhe hue numbers ko unke indices ke saath store karta hai.
+
+
+
+need = target - arr[i]: Required partner calculate karta hai.
+
+
+
+seen.has(need): Check karta hai ki partner pehle mila tha ya nahi.
+
+
+
+seen.get(need): Partner ka index deta hai.
+
+
+
+seen.set(arr[i], i): Current number aur uska index store karta hai.
+
+
+
+return []: Koi valid pair na mile toh empty array return karta hai.
+
+Time complexity: \(O(n)\) average.
+Space complexity: \(O(n)\).
