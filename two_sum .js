@@ -43,5 +43,8 @@ seen.set(arr[i], i): Current number aur uska index store karta hai.
 
 return []: Koi valid pair na mile toh empty array return karta hai.
 
-Time complexity: \(O(n)\) average.
-Space complexity: \(O(n)\).
+Time complexity: O(n) average.
+Space complexity: O(n).
+
+
+  Current number dekho, uska partner calculate karo, partner pehle mila ho toh indices return karo; warna current number ko yaad rakh lo.
