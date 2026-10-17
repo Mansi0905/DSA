@@ -24,6 +24,8 @@ Remember:
 - Set stores unique values.
 - .has() = check; .add() = store.
 - return immediately stops the function.
+
+ Complexity: Time: (O(n)) average | Space: (O(n))
             
 
 
