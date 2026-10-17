@@ -35,14 +35,6 @@ Remember:
 
 
 
-
-
-
-
-
-
-
-
 //FREQUENCY COUNT
  function frequency (arr){
  const count = new Map();
@@ -75,7 +67,7 @@ Remember:
 - Repeated element → count increases by 1.
 
 
-Complexity: Time: \(O(n)\) average | Space: \(O(k)\), where \(k\) is the number of unique elements.
+Complexity: Time: (O(n)) average | Space: (O(k)), where k is the number of unique elements.
 
 
 
