@@ -11,3 +11,4 @@ var searchInsert = function(nums, target) {
     
     
 };
+  // using binary search to implement the search position
