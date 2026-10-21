@@ -1,7 +1,7 @@
-
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
+//Leetcode tempplate--
+ // * @param {number[]} nums
+ // * @param {number} target
+ // * @return {number}
  
 var search = function(nums, target) {
     let first = 0 , last = nums.length-1
