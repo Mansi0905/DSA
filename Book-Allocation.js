@@ -35,9 +35,9 @@ class Solution {
         for(let i =0; i<arr.length;i++){
             first =Math.max(arr[i],first);
             last +=arr[i];
-        }
+        }  //n
         
-        while(first <= last){
+        while(first <= last){// nlogn
             let mid = Math.floor((first+last)/2)
             if(isValid(arr,mid,k)){
                 ans= mid;
@@ -50,3 +50,5 @@ class Solution {
         
     }
 }
+
+overall timecomplexity = O(nlog(n))
