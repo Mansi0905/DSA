@@ -1,5 +1,6 @@
 
 // Allocate minimun pages (binary search)
+//student ko ese book dena hai ki uske pas maximum pages aaye magar load jyda ho jaye ek pr
 
 
 /**
