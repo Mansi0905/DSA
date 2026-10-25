@@ -29,13 +29,21 @@ class Solution {
     findPages(arr, k) {
         
         if(k >arr.length) return -1
-        
+
+
+
         let first = 0;
         let last = 0;
         let ans = -1
+        
+        
         for(let i =0; i<arr.length;i++){
+            
             first =Math.max(arr[i],first);
+            
             last +=arr[i];
+
+            
         }  //n
         
         while(first <= last){// nlogn
