@@ -30,6 +30,9 @@ function swap(arr ,i,j){
     arr[j] = temp;
 }
 
+
+// example
+    
 let arr =[19,3,17,24,25,1,2,99]
 quickSort(arr,0,arr.length-1);
 console.log(arr)
