@@ -21,6 +21,10 @@ function findPivotIdx(arr, first, last) {
             swap(arr, i, j);
         }
     }
+
+
+
+
     swap(arr, j, first);
     return j;
 }
